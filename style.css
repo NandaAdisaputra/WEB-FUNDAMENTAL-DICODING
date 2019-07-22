@@ -1,0 +1,85 @@
+body {
+  margin:0;
+  position: relative;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+ .overlay{
+   position: absolute;
+} 
+
+section img{
+  width:50px;
+  border-radius: 50px;
+  height: 50px;  
+  
+}
+.aktif {
+  background-color: #FF4500;
+}
+.pendidikan-profil{
+  background-color:#9932CC;
+  height:200px;
+}
+.hobby-profil{
+  background-color:#FF8C00;
+  height:200px;
+}
+.experince-profil{
+  background-color:#006400;
+  height:200px;
+}
+.komunitas-profil{
+  background-color:#00BFFF;
+  height:200px;
+}
+.row{
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  float:left;
+  margin: 1px 1px 0 0;
+  box-shadow:0px 0px 2px #999;
+  -moz-box-shadow:0px 0px 2px #999;
+  -webkit-box-shadow:0px 0px 2px #999;
+  padding: 25px ;
+  background:#008B8B;
+}
+.divisi{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  float:left;
+}
+.col-3{
+  box-sizing: border-box;
+  width: 50%;
+  border: 5px solid white;
+  float: left;
+  padding: 15px;
+}
+
+.contact{
+  background-color: #eee;
+  height: 50vh;
+}
+a{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  padding-top: 45px;
+  height:20px;
+  color:#fff;
+}
